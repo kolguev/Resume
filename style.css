@@ -11,10 +11,7 @@ body {
     color: #333333;
     min-width: 768px;
     position: relative;
-    width: 1200px;
-    margin: 0 auto;
     background-color: #f2f2f2c7;
-    height: 1500px;
 }
 
 .page-wrapper {
@@ -25,64 +22,56 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     overflow: hidden;
     text-align: left;
-
-}
-
-.main-page {
     line-height: 21px;
     color: #ffffff;
     display: flex;
-    align-items: center;
-    height: 100%;
+    /*lign-items: center;*/
 }
 
-.main-page b {
+.page-wrapper b {
     font-size: 21px;
     margin-top: 5px;
     color: #000;
 }
 
-.main-page p {
+.page-wrapper p {
     font-weight: normal;
     color: #000;
 }
 
-.main-page h1 {
+.page-wrapper h1 {
     margin: 0 0 15px 0;
     font-size: 30px;
     color: #a74e25b7;
 }
 
-.main-page h2 {
+.page-wrapper h2 {
     margin: 0 0 15px 0;
     font-size: 17px;
     color: #684e1ee1;
 }
 
-.main-page h3 {
+.page-wrapper h3 {
     margin: 0 0 15px 0;
     font-size: 15px;
     color: #684e1ee1;
 }
 
-.main-page ul {
+.page-wrapper ul {
     color: #000000;
 }
 
 .left-side {
-    margin-bottom: 50%;
     padding: 10% 0 0 6%;
     float: left;
     width: 250px;
-	/* position: relative; */
 }
 
 .right-side {
-    padding: 15% 6% 0 6%;
-    /* border-left: 2px solid #684e1ee1; */
+    padding: 7% 6% 7% 6%;
+    /*border-left: 2px solid #684e1ee1; */
     position: relative;
     width: 950px;
-    height: 100%;
 }
 
 .text-wrapper-left {
