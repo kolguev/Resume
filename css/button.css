@@ -1,0 +1,29 @@
+.btn {
+    /* по-умолчанию для <button>, но пригодится для <a> */
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+ /* создаём маленькие отступы, если кнопки перенесутся на две строки */
+    margin: 2px 0;
+ /* невидимая граница (понадобится для цвета при наведении/фокусе) */
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: #000000;
+ }
+
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+.change-lang-btn {
+    width: 80px;
+    height: 30px;
+    background: burlywood;
+}
+
+.change-lang-btn:hover,
+.change-lang-btn:focus
+{
+    background: #deb887cc;
+}
