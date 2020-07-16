@@ -137,3 +137,6 @@ body {
 .ul {
     margin-left: 15px;
 }
+
+/*.english {transform: scale(0);}*/
+[hidden] { display: none; }

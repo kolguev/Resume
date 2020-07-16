@@ -6,23 +6,19 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <div class="page-wrapper">
         <div class="header">
-            <button id="LangChange" class="btn change-lang-btn">
-                RUS/ENG
+            <button class="btn change-lang-btn">
+                <span>RUS/ENG</span>
             </button>
-            <script>
-                LangChange.onclick = function() {
-                  alert('Спасибо');
-                };
-            </script>
         </div>
         <div class="main">
             <div class="left-side">
-                <div class="text-wrapper-left english">
+                <div class="text-wrapper-left english" hidden>
                     <h2>AREAS OF EXPERTISE</h2>
                     <p>System administration</p>
                     <p>Project management</p>
@@ -30,7 +26,7 @@
                     <p>Technical support</p>
                     <p>Network Services Support and <br>Management</p>
                 </div>
-                <div class="text-wrapper-left english">
+                <div class="text-wrapper-left">
                     <h2>PERSONAL DETAILS</h2>
                     <p>Aleksey Melnikov</p>
                     <p>Moscow</p>
